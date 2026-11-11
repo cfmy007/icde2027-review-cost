@@ -1,0 +1,16 @@
+{
+  "dataset": "SBIC",
+  "original": [
+    12792,
+    6410,
+    6554
+  ],
+  "fit": 4000,
+  "history": 4000,
+  "target": 6000,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 671
+}

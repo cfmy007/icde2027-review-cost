@@ -1,0 +1,14 @@
+{
+  "seed_start": 310000,
+  "seed_count": 100,
+  "epochs": 12,
+  "batch": 128,
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 302701,
+  "legacy_audit_fraction": 0.1,
+  "fixed_action_fraction": 0.1,
+  "fixed_tie_seed": 74109,
+  "outcome": "100 * (correct_auto - correct_none) / test_size",
+  "gpu_forward": "bfloat16 autocast, FP32 weights and cross-entropy",
+  "gpu_optimizer": "fused Adam with FP32 state, deterministic cuDNN"
+}

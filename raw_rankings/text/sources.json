@@ -1,0 +1,464 @@
+{
+  "alia": [
+    {
+      "task": "alia",
+      "raw_records": 3000,
+      "excluded": {
+        "reference_tie": 836
+      },
+      "sizes": [
+        658,
+        629,
+        877
+      ],
+      "group_counts": [
+        134,
+        115,
+        133
+      ],
+      "classes": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feasible": true,
+      "fit_source_reference_vote_cost": 2574
+    },
+    {
+      "source": "https://huggingface.co/datasets/SINAI/ALIA-es-discriminative-stance-detection"
+    }
+  ],
+  "amazon": [
+    {
+      "raw_git_blob": "9f30f2c713cce4df969d05116cdd4f9811e36499",
+      "non_golden_items": 998,
+      "source": "https://github.com/Evgeneus/screening-classification-datasets/tree/master/crowdsourced-amazon-sentiment-dataset",
+      "reference_provenance": "original dataset is_negative predicate derived from the review author's 1-star versus 5-star rating; this is not a separately adjudicated expert label",
+      "worker_claim": "first valid is_negative_crowd response in sorted worker-id order"
+    }
+  ],
+  "authorship": [
+    {
+      "raw_rows": 300,
+      "eligible": 300,
+      "excluded": {},
+      "role_sizes": [
+        80,
+        100,
+        120
+      ],
+      "role_components": [
+        8,
+        10,
+        12
+      ],
+      "fit_reference_classes": [
+        0,
+        1
+      ],
+      "feasible": true,
+      "source": "https://github.com/jenna-russell/human_detectors",
+      "paper": "https://aclanthology.org/2025.acl-long.267/",
+      "source_repository_license": "MIT",
+      "license_notice": "raw_rankings/text/HUMAN_DETECTORS_LICENSE.txt"
+    }
+  ],
+  "coda": [
+    {
+      "source": "https://github.com/Crowd-AI-Lab/If-In-A-Crowdsourced-Data-Annotation-Pipeline-A-GPT-4-Dataset",
+      "counts": [
+        1112,
+        1164,
+        901
+      ],
+      "abstract_counts": [
+        66,
+        74,
+        60
+      ],
+      "excluded": {},
+      "groups_disjoint": true,
+      "feasible": true,
+      "matching_record_files": 200
+    }
+  ],
+  "convabuse": [
+    {
+      "raw_rows": 12768,
+      "matched_utterances": 4035,
+      "excluded": {
+        "fewer_than_three_valid_annotators": 1386,
+        "other_majority_tie": 177,
+        "annotator_conflict": 6
+      },
+      "role_sizes": [
+        1638,
+        408,
+        420
+      ],
+      "role_groups": [
+        346,
+        346,
+        360
+      ],
+      "fit_reference_classes": [
+        0,
+        1
+      ],
+      "feasible": true
+    }
+  ],
+  "crowdtruth_cause": [
+    {
+      "task": "cause",
+      "counts": [
+        345,
+        293,
+        337
+      ],
+      "sentence_groups": [
+        345,
+        293,
+        337
+      ],
+      "excluded": {
+        "missing_expert": 3009,
+        "zero_crowd": 0,
+        "missing_text_or_term": 0
+      },
+      "disjoint": true,
+      "feasible": true
+    }
+  ],
+  "crowdtruth_treat": [
+    {
+      "task": "treat",
+      "counts": [
+        215,
+        198,
+        208
+      ],
+      "sentence_groups": [
+        215,
+        198,
+        208
+      ],
+      "excluded": {
+        "missing_expert": 3363,
+        "zero_crowd": 0,
+        "missing_text_or_term": 0
+      },
+      "disjoint": true,
+      "feasible": true
+    }
+  ],
+  "dices": [],
+  "disagg_italian": [
+    {
+      "raw_rows": 11030,
+      "tweet_ids": 1100,
+      "excluded": {
+        "fewer_than_three_annotators": 98,
+        "other_majority_tie": 15
+      },
+      "role_sizes": [
+        323,
+        339,
+        325
+      ],
+      "role_groups": [
+        323,
+        339,
+        325
+      ],
+      "fit_classes": [
+        0,
+        1
+      ],
+      "feasible": true
+    }
+  ],
+  "gahd": [
+    {
+      "all_records": 10996,
+      "eligible": 3912,
+      "excluded": {
+        "missing_text_expert_or_vote": 7084
+      },
+      "role_sizes": [
+        1325,
+        1301,
+        1286
+      ],
+      "role_components": [
+        1170,
+        1148,
+        1141
+      ],
+      "feasible": true
+    }
+  ],
+  "germs": [
+    {
+      "revision": "423424af53bb067184215355da86dcd4a9e38ed9",
+      "license": "CC-BY-NC-SA-4.0",
+      "files": {
+        "germs-at-train.jsonl": {
+          "url": "https://huggingface.co/datasets/ofai/GerMS-AT/resolve/423424af53bb067184215355da86dcd4a9e38ed9/germs-at-train.jsonl",
+          "bytes": 3224923
+        },
+        "germs-at-test.jsonl": {
+          "url": "https://huggingface.co/datasets/ofai/GerMS-AT/resolve/423424af53bb067184215355da86dcd4a9e38ed9/germs-at-test.jsonl",
+          "bytes": 1034654
+        }
+      }
+    },
+    {
+      "raw_records": 7984,
+      "excluded": {
+        "fewer_than_four": 211
+      },
+      "role_sizes": [
+        2669,
+        2528,
+        2576
+      ],
+      "role_group_counts": [
+        2669,
+        2528,
+        2576
+      ],
+      "reference_classes_by_role": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "role_reference_votes": [
+        8007,
+        7584,
+        7728
+      ],
+      "feasible": true
+    },
+    {
+      "source": "https://huggingface.co/datasets/ofai/GerMS-AT"
+    }
+  ],
+  "misogyny": [
+    {
+      "final_rows": 6567,
+      "original_rows": 15816,
+      "eligible": 6370,
+      "excluded": {
+        "missing_or_ambiguous": 13
+      },
+      "role_sizes": [
+        3121,
+        1749,
+        1500
+      ],
+      "role_components": [
+        145,
+        160,
+        140
+      ],
+      "feasible": true
+    }
+  ],
+  "mvsc": [
+    {
+      "raw_rows": 3000,
+      "eligible": 3000,
+      "excluded": {},
+      "role_sizes": [
+        1070,
+        1001,
+        929
+      ],
+      "role_components": [
+        992,
+        951,
+        893
+      ],
+      "fit_reference_classes": [
+        0,
+        1
+      ],
+      "utf8_replacement_characters": 221,
+      "feasible": true
+    }
+  ],
+  "nli_dnc": [
+    {
+      "counts": [
+        51,
+        49,
+        85
+      ],
+      "exact_text_groups_disjoint": true,
+      "fit_has_both_classes": true,
+      "excluded": {
+        "ambiguous_original_label": 15,
+        "no_nonzero_worker_score": 0
+      },
+      "feasible": true
+    }
+  ],
+  "nli_mnli": [
+    {
+      "target": "mnli",
+      "counts": [
+        51,
+        49,
+        99
+      ],
+      "exact_text_disjoint": true,
+      "excluded": {
+        "ambiguous_original_label": 0,
+        "no_nonzero_worker_score": 0
+      },
+      "feasible": true
+    }
+  ],
+  "nli_snli": [
+    {
+      "target": "snli",
+      "counts": [
+        51,
+        49,
+        100
+      ],
+      "exact_text_disjoint": true,
+      "excluded": {
+        "ambiguous_original_label": 0,
+        "no_nonzero_worker_score": 0
+      },
+      "feasible": true
+    }
+  ],
+  "sentimp": [
+    {
+      "task": "sentimp",
+      "raw_records": 480,
+      "excluded": {
+        "reference_tie": 84
+      },
+      "sizes": [
+        127,
+        127,
+        142
+      ],
+      "group_counts": [
+        127,
+        127,
+        142
+      ],
+      "classes": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feasible": true,
+      "fit_source_reference_vote_cost": 508
+    }
+  ],
+  "snow_external_anger": [
+    {
+      "task": "anger",
+      "counts": [
+        472,
+        414,
+        100
+      ],
+      "reference_match": 100,
+      "target_n": 100,
+      "disjoint": true,
+      "feasible": true
+    }
+  ],
+  "snow_external_fear": [
+    {
+      "task": "fear",
+      "counts": [
+        472,
+        414,
+        100
+      ],
+      "reference_match": 100,
+      "target_n": 100,
+      "disjoint": true,
+      "feasible": true
+    }
+  ],
+  "snow_external_joy": [
+    {
+      "task": "joy",
+      "counts": [
+        472,
+        414,
+        100
+      ],
+      "reference_match": 100,
+      "target_n": 100,
+      "disjoint": true,
+      "feasible": true
+    }
+  ],
+  "snow_rte": [
+    {
+      "matched_gold": 800,
+      "original_tasks": 800,
+      "deduplicated": 799,
+      "counts": [
+        251,
+        281,
+        267
+      ],
+      "feasible": true,
+      "crowd_source": "https://aclanthology.org/D08-1027/",
+      "text_source": "https://www.nltk.org/nltk_data/"
+    }
+  ],
+  "varierr": [
+    {
+      "counts": [
+        171,
+        139,
+        150
+      ],
+      "excluded": {
+        "no_accepted_or_binary_tie": 40
+      },
+      "exact_text_disjoint": true,
+      "feasible": true
+    }
+  ],
+  "web_nist": []
+}

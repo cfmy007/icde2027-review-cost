@@ -1,0 +1,14 @@
+{
+  "datasets": ["c100", "c10"],
+  "primary": {"dataset": "c100", "target": "noisy_label", "source": "NC-Aux", "rate": 0.4, "budget": 0.1, "choice": "source_review"},
+  "candidate_sets": {
+    "margin": ["CNN", "PCA", "RP"],
+    "plus_knn": ["CNN", "PCA", "RP", "CNN-kNN"],
+    "extended": ["CNN", "PCA", "RP", "CNN-kNN", "CNN-head"]
+  },
+  "knn_neighbors": 10,
+  "head_logit_scale": 30,
+  "resamples": 20000,
+  "same_source_rates_for_all_human_targets": [0.10, 0.20, 0.40],
+  "fixed_baseline": "CNN"
+}

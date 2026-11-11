@@ -1,0 +1,18 @@
+{
+  "dataset": "snow_external_anger",
+  "counts": [
+    472,
+    414,
+    100
+  ],
+  "fit_classes": [
+    223,
+    249
+  ],
+  "source_classes": [
+    210,
+    204
+  ],
+  "target_errors": 32,
+  "note": "SemEval expert mean versus Snow crowd anger"
+}

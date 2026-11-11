@@ -1,0 +1,17 @@
+{
+  "benchmark": "Use all 17 scored corpora and their ten frozen paired synthetic-mask source choices in the expanded menu. The scored target pool and ranks are unchanged. Treat the difficulty-mask choice as the default for the prospective comparison, and the random-mask choice as the challenger. Report both directions in the full-reference analysis.",
+  "budgets": [0.05,0.10,0.20],
+  "primary_budget": 0.10,
+  "material_fixes_per_10000": 25,
+  "material_extra_fraction": 0.10,
+  "primary_estimands": "At equal cap B, report random hits minus difficulty hits. If either queue is ahead, report how many additional distinct checks the trailing queue needs to match the leading queue's observed B-check yield. A tie has zero extra checks. Report corpus-level means across source runs on the fixed target, and verify sign and cost under a disjoint reference where available.",
+  "second_reference": ["GoEmotions","Wikipedia-Attack","D3code","Unhealthy-Comments","Stanford-Politeness","MBIC"],
+  "pre_audit_screen": "At equal cap, fewer exclusive records than the material-fix threshold certifies that neither fixed queue can lose that many repairs. The screen uses only record IDs, not labels.",
+  "paid_measurement": "To certify a shortage of at least 25 fixes per 10000, compare equal prefixes. To certify at least ceil(0.10*B) extra checks for the default, compare the challenger at B against the default at B+ceil(0.10*B)-1. Sample uniformly within the exclusive strata, proportional to stratum size. At each fixed cost use two exact one-sided hypergeometric bounds at 0.025 each for the difference. Report the exact probability of a certificate as a function of paid checks on each fixed finite population. Each cost is a separate fixed-budget design, with no optional stopping or cross-corpus inference.",
+  "measurement_budget_fractions": [0.05,0.10,0.25,0.50,1.00,1.50,2.00,2.10],
+  "deployment": "Use at most 10% of the 10% total review cap on a balanced audit of the exclusive shortened prefixes. Credit all audited repairs, skip duplicate checks and use the one-sided 95% bound to decide whether to switch. Evaluate versus both full fixed queues and a free deterministic interleave. A certificate compares only the two audited follow-up plans; separately measure total net yield versus the no-audit policies.",
+  "followup": "Report all combinations of tied source winners at the original fixed target caps. In the measurement experiment, also use a sharper exact one-sided test that maximizes the tail probability over all allowable null stratum totals. Report both tests across the fixed cost grid and the full exclusive census on each available reference. Compare exact expected same-budget deployment yields at audit fractions 0%, 5%, 10%, 20%, 35% and 50% of B. Maintain the original 50-label per-side cap for the original 10% policy; the supplemental curve uses the declared fractions directly.",
+  "deployment_curve_fractions": [0,0.05,0.10,0.20,0.35,0.50],
+  "seed": 26112631,
+  "audit_repetitions": 100
+}

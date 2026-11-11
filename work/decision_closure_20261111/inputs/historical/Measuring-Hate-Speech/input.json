@@ -1,0 +1,16 @@
+{
+  "dataset": "Measuring-Hate-Speech",
+  "original": [
+    7372,
+    3790,
+    3630
+  ],
+  "fit": 4000,
+  "history": 3790,
+  "target": 3630,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 541
+}

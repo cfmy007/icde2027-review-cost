@@ -1,0 +1,16 @@
+{
+  "dataset": "Unhealthy-Comments",
+  "original": [
+    9495,
+    4779,
+    4930
+  ],
+  "fit": 3848,
+  "history": 3718,
+  "target": 4487,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 1799
+}

@@ -1,0 +1,88 @@
+{
+  "dataset": "ag",
+  "classes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "n_fit": 4000,
+  "n_source": 4000,
+  "n_target": 6000,
+  "target_disagreements": 1384,
+  "setup_trusted_labels": 8000,
+  "review_budget": 600,
+  "names": [
+    "word-confidence",
+    "word-margin",
+    "word-naive-bayes",
+    "char-confidence",
+    "char-margin",
+    "char-naive-bayes"
+  ],
+  "source_seeds": [
+    26112500,
+    26112501,
+    26112502,
+    26112503,
+    26112504,
+    26112505,
+    26112506,
+    26112507,
+    26112508,
+    26112509
+  ],
+  "switches": 6,
+  "strict_both": 4,
+  "random_mean": 568.0,
+  "difficulty_mean": 567.2,
+  "mean_gap": 0.8,
+  "paired_95_ci": [
+    -12.6,
+    16.0
+  ],
+  "signed_extra": [
+    2,
+    0,
+    2,
+    2,
+    2,
+    -2,
+    0,
+    0,
+    2,
+    0
+  ],
+  "target_metrics": {
+    "word-confidence": {
+      "auc": 0.9066834320934474,
+      "ap": 0.8292137491385537,
+      "precision_at_10": 0.9483333333333334
+    },
+    "word-margin": {
+      "auc": 0.8639336286953647,
+      "ap": 0.7634942958523712,
+      "precision_at_10": 0.9483333333333334
+    },
+    "word-naive-bayes": {
+      "auc": 0.910287226635678,
+      "ap": 0.8345668044149529,
+      "precision_at_10": 0.945
+    },
+    "char-confidence": {
+      "auc": 0.9026519970747637,
+      "ap": 0.8216241911379649,
+      "precision_at_10": 0.945
+    },
+    "char-margin": {
+      "auc": 0.8531976926197895,
+      "ap": 0.7496481694086925,
+      "precision_at_10": 0.9466666666666667
+    },
+    "char-naive-bayes": {
+      "auc": 0.9024987540196951,
+      "ap": 0.8162536125459688,
+      "precision_at_10": 0.9333333333333333
+    }
+  }
+}

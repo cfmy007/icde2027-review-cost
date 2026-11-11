@@ -1,0 +1,18 @@
+{
+  "dataset": "snow_rte",
+  "counts": [
+    251,
+    281,
+    267
+  ],
+  "fit_classes": [
+    137,
+    114
+  ],
+  "source_classes": [
+    138,
+    143
+  ],
+  "target_errors": 116,
+  "note": "PASCAL RTE1 reference versus first sorted valid Snow crowd worker"
+}

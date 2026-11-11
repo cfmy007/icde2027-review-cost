@@ -1,0 +1,18 @@
+{
+  "dataset": "nli_mnli",
+  "counts": [
+    51,
+    49,
+    99
+  ],
+  "fit_classes": [
+    30,
+    21
+  ],
+  "source_classes": [
+    33,
+    16
+  ],
+  "target_errors": 39,
+  "note": "original task label versus first nonzero filtered worker score"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "nli_dnc",
+  "counts": [
+    51,
+    49,
+    85
+  ],
+  "fit_classes": [
+    30,
+    21
+  ],
+  "source_classes": [
+    33,
+    16
+  ],
+  "target_errors": 22,
+  "note": "original task label versus first nonzero filtered worker score"
+}

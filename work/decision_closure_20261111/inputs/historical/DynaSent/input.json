@@ -1,0 +1,17 @@
+{
+  "dataset": "DynaSent",
+  "original": [
+    70160,
+    1635,
+    10739
+  ],
+  "fit": 4000,
+  "history": 1635,
+  "target": 6000,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "disagreements": 952
+}

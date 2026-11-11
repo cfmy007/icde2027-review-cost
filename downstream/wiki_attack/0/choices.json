@@ -1,0 +1,14 @@
+{
+  "selected": "char-confidence",
+  "target_hits": 784,
+  "oracle": "char-confidence",
+  "oracle_hits": 784,
+  "random_hits": 128,
+  "source_hits": {
+    "word-confidence": 371,
+    "char-confidence": 376,
+    "prototype-margin": 234,
+    "knn-disagreement": 342,
+    "native-CL": 286
+  }
+}

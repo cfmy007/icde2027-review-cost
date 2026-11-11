@@ -1,0 +1,18 @@
+{
+  "dataset": "coda",
+  "counts": [
+    1112,
+    1164,
+    901
+  ],
+  "fit_classes": [
+    616,
+    496
+  ],
+  "source_classes": [
+    578,
+    586
+  ],
+  "target_errors": 468,
+  "note": "first sorted basic-interface crowd worker versus biomedical expert"
+}

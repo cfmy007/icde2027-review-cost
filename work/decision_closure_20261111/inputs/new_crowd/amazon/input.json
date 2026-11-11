@@ -1,0 +1,18 @@
+{
+  "dataset": "amazon",
+  "counts": [
+    351,
+    337,
+    310
+  ],
+  "fit_classes": [
+    316,
+    35
+  ],
+  "source_classes": [
+    306,
+    31
+  ],
+  "target_errors": 11,
+  "note": "review-author 1-star versus 5-star label; not expert adjudication"
+}

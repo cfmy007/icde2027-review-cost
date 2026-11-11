@@ -1,0 +1,18 @@
+{
+  "dataset": "gahd",
+  "counts": [
+    1325,
+    1301,
+    1286
+  ],
+  "fit_classes": [
+    731,
+    594
+  ],
+  "source_classes": [
+    753,
+    548
+  ],
+  "target_errors": 186,
+  "note": "first listed annotator label versus available expert label; component-disjoint roles"
+}

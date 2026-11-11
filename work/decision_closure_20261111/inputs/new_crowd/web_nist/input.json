@@ -1,0 +1,18 @@
+{
+  "dataset": "web_nist",
+  "counts": [
+    1398,
+    1217,
+    1984
+  ],
+  "fit_classes": [
+    718,
+    680
+  ],
+  "source_classes": [
+    680,
+    537
+  ],
+  "target_errors": 483,
+  "note": "first sorted worker rationale is the text input for web_nist"
+}

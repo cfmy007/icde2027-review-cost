@@ -1,0 +1,18 @@
+{
+  "dataset": "disagg_italian",
+  "counts": [
+    323,
+    339,
+    325
+  ],
+  "fit_reference_classes": [
+    289,
+    34
+  ],
+  "source_reference_classes": [
+    299,
+    40
+  ],
+  "target_disagreements": 61,
+  "note": "one Italian student judgment compared to strict majority among other annotators"
+}

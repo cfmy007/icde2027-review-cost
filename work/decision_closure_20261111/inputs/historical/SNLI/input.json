@@ -1,0 +1,17 @@
+{
+  "dataset": "SNLI",
+  "original": [
+    27896,
+    8381,
+    8676
+  ],
+  "fit": 4000,
+  "history": 3999,
+  "target": 6000,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "disagreements": 486
+}

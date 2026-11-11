@@ -1,0 +1,18 @@
+{
+  "dataset": "varierr",
+  "counts": [
+    171,
+    139,
+    150
+  ],
+  "fit_classes": [
+    126,
+    45
+  ],
+  "source_classes": [
+    110,
+    29
+  ],
+  "target_errors": 16,
+  "note": "first original human label versus binary round-two adjudication; unresolved binary ties excluded"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "misogyny",
+  "counts": [
+    3121,
+    1749,
+    1500
+  ],
+  "fit_classes": [
+    2865,
+    256
+  ],
+  "source_classes": [
+    1611,
+    138
+  ],
+  "target_errors": 53,
+  "note": "lowest-id original annotator versus facilitated consensus; thread-disjoint roles"
+}

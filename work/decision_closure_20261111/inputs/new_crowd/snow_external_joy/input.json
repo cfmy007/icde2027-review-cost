@@ -1,0 +1,18 @@
+{
+  "dataset": "snow_external_joy",
+  "counts": [
+    472,
+    414,
+    100
+  ],
+  "fit_classes": [
+    155,
+    317
+  ],
+  "source_classes": [
+    145,
+    269
+  ],
+  "target_errors": 37,
+  "note": "SemEval expert mean versus Snow crowd joy"
+}

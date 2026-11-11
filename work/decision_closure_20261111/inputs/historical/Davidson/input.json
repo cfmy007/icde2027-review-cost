@@ -1,0 +1,17 @@
+{
+  "dataset": "Davidson",
+  "original": [
+    10202,
+    5020,
+    5186
+  ],
+  "fit": 4000,
+  "history": 4000,
+  "target": 5186,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "disagreements": 619
+}

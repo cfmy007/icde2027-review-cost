@@ -1,0 +1,26 @@
+{
+  "name": "Budgeted downstream selection with paid pilot reviews",
+  "status": "Follow-up defined before these runs; candidate menus and datasets were investigated previously.",
+  "datasets": {
+    "cifar100n": "Ten existing RN18 source/target partitions with twelve frozen target queues, including raw-image AUM. Use the 9990-image deduplicated official CIFAR-100 test set.",
+    "wiki_attack": "Ten existing grouped splits of Wikipedia Personal Attack labels, with five frozen target queues and an independent three-vote majority test reference."
+  },
+  "target_budgets": {"cifar100n": 1000, "wiki_attack": 1200},
+  "source_setup": "All policies share the previously frozen source selection and reference-fitting setup. Synthetic CIFAR-100N source requires reference labels for the source and prototype records. Wiki setup uses 15000 reviewed reference/source records, each requiring three reference votes if newly collected. These are common additional costs.",
+  "policies": {
+    "source_self": "Full budget on the source self-protocol winner; CIFAR-100N only.",
+    "source_external": "Full budget on the external-source winner; CIFAR-100N only.",
+    "source": "Full budget on the pre-existing source winner; Wiki only.",
+    "random": "Uniform sample of the target records at the full budget.",
+    "yield_audit": "Sample 10 percent of the total budget uniformly from the union of candidate prefixes, select the candidate with most reviewed disagreements in its prefix, then spend the remainder on unseen records in its prefix. Audit labels are retained as corrections.",
+    "validation_select": "Uniformly sample 10 percent of the budget for a validation panel and keep it out of every pilot model's training. Allocate a further one quarter of the budget, divided equally and rounded down, to disjoint candidate pilot queues in a fixed randomized round-robin order. Each pilot model is trained using the corresponding pilot corrections only, excluding the validation panel. Select by validation accuracy for CIFAR-100N and validation macro-F1 for Wiki. Correct the validation records and every candidate pilot record, then spend the remaining budget on unseen records in the selected queue. Retrain the final model on the full target set.",
+    "no_review": "Original target labels; no target review cost.",
+    "hindsight_candidate": "Every full-budget candidate queue evaluated offline for oracle comparisons only. The union must be labelled to obtain this benchmark and is not charged as the cost of a deployable selected policy."
+  },
+  "candidate_pilots": "The fixed queues and claims are observable without target reference labels. Validation and pilot samples are disjoint. The per-repeat candidate order is generated from its fixed seed. Every actual review is charged once; each candidate receives the same pilot count. Source setup and held-out offline evaluation are recorded separately.",
+  "training": "The 10 existing partitions each have 10 paired train/audit seeds. Reuse 419500 + 10*repeat + split on CIFAR-100N, and 415500 + 10*repeat + split on Wiki. For fixed data and seed, all arms use the same model initialization and batch permutations. 18 epochs, AdamW and the original frozen embeddings. CIFAR-100N compares RN18-feature linear and EB0-feature MLP on identical RN18 detector queues; Wiki compares linear and 256-unit MLP.",
+  "metrics": "CIFAR-100N test accuracy, Wiki test macro-F1, target reference disagreements repaired, validation selection frequencies, and per-policy actual reviewed records. Also retain Wiki test accuracy and all per-class F1. The target hindsight best for downstream quality is retrospective and requires the full offline candidate union.",
+  "inference": "Paired hierarchical bootstrap with 2000 draws over data partitions, paired train/audit seeds, and shared original test identity. Confidence intervals reflect these finite panels and the overlapping data partitions, not ten independent new datasets.",
+  "anti_leakage": "No target gold beyond each policy's paid samples enters its selection or training. Candidate pilot models see no validation labels or test labels. The reference of records outside a policy's paid set is used only for offline outcome calculation and hindsight candidates.",
+  "analysis": "Predeclare source versus yield_audit and source versus validation_select as contrasts, plus validation_select versus yield_audit. CIFAR includes both source protocols. Report outcomes in both datasets and both model configurations even if adverse; no significance-driven subset selection."
+}

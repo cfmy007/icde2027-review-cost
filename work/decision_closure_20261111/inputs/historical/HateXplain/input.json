@@ -1,0 +1,17 @@
+{
+  "dataset": "HateXplain",
+  "original": [
+    6548,
+    3187,
+    3193
+  ],
+  "fit": 4000,
+  "history": 3187,
+  "target": 3193,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "disagreements": 767
+}

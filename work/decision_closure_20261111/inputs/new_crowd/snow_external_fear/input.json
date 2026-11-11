@@ -1,0 +1,18 @@
+{
+  "dataset": "snow_external_fear",
+  "counts": [
+    472,
+    414,
+    100
+  ],
+  "fit_classes": [
+    144,
+    328
+  ],
+  "source_classes": [
+    105,
+    309
+  ],
+  "target_errors": 31,
+  "note": "SemEval expert mean versus Snow crowd fear"
+}

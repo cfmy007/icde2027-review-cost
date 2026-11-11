@@ -1,0 +1,16 @@
+{
+  "dataset": "AudioSet",
+  "original": [
+    8448,
+    4214,
+    4334
+  ],
+  "fit": 4000,
+  "history": 4000,
+  "target": 4334,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 730
+}

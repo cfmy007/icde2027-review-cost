@@ -1,0 +1,22 @@
+{
+  "question": "How often does changing the synthetic error mask alter detector selection and real fixed-budget review yield across public human annotation corpora?",
+  "datasets": ["CIFAR-10N","CIFAR-100N","Fashion-MNIST-H","AudioSet","GoEmotions","Wikipedia-Attack","D3code","Measuring-Hate-Speech","Unhealthy-Comments","Stanford-Politeness","SBIC","MBIC","DynaSent","SNLI","MultiNLI","HateXplain","Davidson","Chaos-alphaNLI"],
+  "fit_limit": 4000,
+  "source_limit": 4000,
+  "target_limit": 6000,
+  "seeds": [26112500,26112501,26112502,26112503,26112504,26112505,26112506,26112507,26112508,26112509],
+  "noise_rate": 0.20,
+  "budgets": [0.05,0.10,0.20],
+  "primary_budget": 0.10,
+  "primary_menu": "expanded",
+  "min_source_target": 200,
+  "min_target_disagreements": 10,
+  "material_fixes_per_10000": 25,
+  "bootstrap_draws": 4000,
+  "bootstrap_seed": 26112520,
+  "design": "Freeze grouped fit/source/target split, plus fit-derived scores. Each source seed retains 80% of the source records per reference class. The two masks change the same number of labels and share the auxiliary head's most probable incorrect class for every record. Random uses a uniform mask; difficulty sorts auxiliary probability of that wrong class. Target keeps a genuine original claim or a disjoint human vote. Compare each selected queue with its matched counterpart and the retrospective target-best detector.",
+  "menus": "Core uses task-trained heads and geometry; expanded adds Cleanlab and cached frozen pretrained representation scores on text/images. Audio uses released VGGish mean features in the core and adds max-pooled features in the expanded menu. Cleanlab uses out-of-sample probabilities from the shared labeled fit set.",
+  "inference": "Paired bootstrap resamples source seeds and held-out record groups; reported intervals describe each fixed corpus, not a random sample of all tasks. No pooled significance or universal direction claim. Report all eligible corpora including ties and losses.",
+  "pretrained": "Qwen2.5-0.5B-Instruct revision 7ae557604adf67be50417f59c2c2f167def9a775 for text; ImageNet ResNet-18 f37072fd for images; released AudioSet VGGish features for audio.",
+  "support_resolution": "The reused five-vote SBIC adapter and selected Measuring Hate Speech cache failed eligibility before scoring. For these two corpora use complete releases, require at least three distinct workers, hold out one actual vote, and require a strict majority among the remaining workers. Preserve the original binary label mapping and group normalized text. Keep the initial exclusion records separately."
+}

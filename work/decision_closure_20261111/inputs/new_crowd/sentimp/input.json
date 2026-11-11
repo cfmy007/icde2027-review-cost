@@ -1,0 +1,18 @@
+{
+  "dataset": "sentimp",
+  "counts": [
+    127,
+    127,
+    142
+  ],
+  "fit_reference_classes": [
+    59,
+    68
+  ],
+  "source_reference_classes": [
+    63,
+    64
+  ],
+  "target_disagreements": 9,
+  "note": "one annotator judgment versus two agreeing others"
+}

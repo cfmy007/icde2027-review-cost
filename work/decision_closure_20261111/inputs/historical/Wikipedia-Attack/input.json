@@ -1,0 +1,16 @@
+{
+  "dataset": "Wikipedia-Attack",
+  "original": [
+    64331,
+    21521,
+    22098
+  ],
+  "fit": 4000,
+  "history": 4000,
+  "target": 6000,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 738
+}

@@ -1,0 +1,20 @@
+{
+  "primary": "test whether changes in review yield from the actual source-selected queues translate to downstream accuracy",
+  "source": "fixed published destination and random vs difficulty masks, 20% source noise; source winners are the CNN margin and CNN 10NN respectively",
+  "seed_start": 410000,
+  "seed_count_per_cohort": 100,
+  "training_cohorts": ["CIFAR-10N","CIFAR-10H"],
+  "CIFAR-10N": "cycle through the ten original target splits; assign all three individual human labels nearly equally using a fixed rotation",
+  "CIFAR-10H": "the 100 frozen human vote draws, each over the original target images",
+  "arms": ["unreviewed","uniform","random_mask_choice","difficulty_mask_choice","count_matched"],
+  "review_fraction": 0.10,
+  "count_matched": "diagnostic: keep corrections common to both detector queues and uniformly thin the higher-yield queue's unique corrections to the lower count, then compare with the lower-yield queue; pay the original review budget",
+  "training": "archived 3-convolution PlainCNN from scratch, identical 12 epochs, initialization, batch order, and image augmentation within each seed; same optimizer and recipe as downstream100",
+  "external_test": "CIFAR-10.1 v6 fixed pinned release d9982abb0bfc4846b8d13a11e66b887d946205d0, no validation/model selection; check exact duplicates against all CIFAR-10 images",
+  "secondary_test": "official CIFAR-10 test, only for CIFAR-10N-trained models",
+  "accuracy_unit": "percentage points",
+  "primary_contrasts": ["difficulty_minus_random","random_minus_uniform","difficulty_minus_uniform","high_minus_count_matched","count_matched_minus_low"],
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 410901,
+  "practical_accuracy_delta_pp": 0.5
+}

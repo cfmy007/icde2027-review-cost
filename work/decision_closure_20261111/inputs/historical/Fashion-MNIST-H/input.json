@@ -1,0 +1,24 @@
+{
+  "dataset": "Fashion-MNIST-H",
+  "original": [
+    4901,
+    2566,
+    2533
+  ],
+  "fit": 4000,
+  "history": 2566,
+  "target": 2533,
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "disagreements": 858
+}

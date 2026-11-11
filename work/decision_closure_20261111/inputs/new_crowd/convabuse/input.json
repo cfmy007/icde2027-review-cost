@@ -1,0 +1,18 @@
+{
+  "dataset": "convabuse",
+  "counts": [
+    1638,
+    408,
+    420
+  ],
+  "fit_reference_classes": [
+    1466,
+    172
+  ],
+  "source_reference_classes": [
+    325,
+    83
+  ],
+  "target_disagreements": 21,
+  "note": "one annotator judgment compared to strict majority among other annotators"
+}

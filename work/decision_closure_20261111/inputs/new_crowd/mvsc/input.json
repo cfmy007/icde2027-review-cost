@@ -1,0 +1,18 @@
+{
+  "dataset": "mvsc",
+  "counts": [
+    1070,
+    1001,
+    929
+  ],
+  "fit_classes": [
+    1039,
+    31
+  ],
+  "source_classes": [
+    973,
+    28
+  ],
+  "target_errors": 36,
+  "note": "first annotator irony versus second; third annotator saved as secondary reference"
+}

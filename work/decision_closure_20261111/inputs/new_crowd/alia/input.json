@@ -1,0 +1,18 @@
+{
+  "dataset": "alia",
+  "counts": [
+    658,
+    629,
+    877
+  ],
+  "fit_reference_classes": [
+    279,
+    379
+  ],
+  "source_reference_classes": [
+    225,
+    404
+  ],
+  "target_disagreements": 137,
+  "note": "one annotator judgment versus two agreeing others"
+}

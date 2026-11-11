@@ -1,0 +1,1056 @@
+{
+  "0.02": {
+    "base": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "CNN": 10
+        },
+        "Chen-ID-hard": {
+          "CNN-kNN": 9,
+          "CNN": 1
+        }
+      },
+      "different_winners": 9,
+      "CIFAR-10H": {
+        "random": [
+          76.0,
+          73.6,
+          78.3
+        ],
+        "difficulty": [
+          45.13,
+          38.9,
+          53.29024999999998
+        ],
+        "difficulty_minus_random": [
+          -30.87,
+          -37.5,
+          -22.68
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          30.87,
+          22.68,
+          37.5
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          188.57104754284188,
+          187.30412749216507,
+          189.7379475895179
+        ],
+        "difficulty": [
+          132.59318530372738,
+          123.62472494498903,
+          146.86270587450824
+        ],
+        "difficulty_minus_random": [
+          -55.97786223911449,
+          -64.54624258184971,
+          -42.34180169367207
+        ],
+        "random_regret": [
+          0.23338000933520037,
+          0.0666800026672001,
+          0.40008001600320064
+        ],
+        "difficulty_regret": [
+          56.211242248449686,
+          42.507668200306725,
+          64.8463025938521
+        ]
+      }
+    },
+    "claims_only": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "Confident-Learning": 1,
+          "Docta-SimiFeat-V": 9
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 1,
+      "CIFAR-10H": {
+        "random": [
+          48.28,
+          41.44,
+          54.4
+        ],
+        "difficulty": [
+          51.0,
+          47.0,
+          55.7
+        ],
+        "difficulty_minus_random": [
+          2.72,
+          0.0,
+          8.91
+        ],
+        "random_regret": [
+          3.62,
+          0.0,
+          9.93
+        ],
+        "difficulty_regret": [
+          0.9,
+          0.0,
+          2.7
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          125.32506501300259,
+          118.95712475828498,
+          129.35920517436818
+        ],
+        "difficulty": [
+          128.25898513035938,
+          126.79202507168097,
+          129.65926518637062
+        ],
+        "difficulty_minus_random": [
+          2.933920117356805,
+          0.0,
+          8.801760352070414
+        ],
+        "random_regret": [
+          50.376742015069674,
+          46.542641861705675,
+          55.577782223111285
+        ],
+        "difficulty_regret": [
+          47.442821897712875,
+          44.87564179502567,
+          49.74328198973127
+        ]
+      }
+    },
+    "base_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "CNN": 10
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 10,
+      "CIFAR-10H": {
+        "random": [
+          76.0,
+          73.6,
+          78.3
+        ],
+        "difficulty": [
+          51.0,
+          47.0,
+          55.7
+        ],
+        "difficulty_minus_random": [
+          -25.0,
+          -30.0,
+          -20.3
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          25.0,
+          20.3,
+          30.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          188.57104754284188,
+          187.30412749216507,
+          189.7379475895179
+        ],
+        "difficulty": [
+          128.25898513035938,
+          126.79202507168097,
+          129.65926518637062
+        ],
+        "difficulty_minus_random": [
+          -60.3120624124825,
+          -62.579182503167296,
+          -58.17830232713209
+        ],
+        "random_regret": [
+          0.23338000933520037,
+          0.0666800026672001,
+          0.40008001600320064
+        ],
+        "difficulty_regret": [
+          60.5454424218177,
+          58.41168233646729,
+          62.812562512502495
+        ]
+      }
+    },
+    "all_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "MV3-head": 4,
+          "RN18-head": 6
+        },
+        "Chen-ID-hard": {
+          "RN18-head": 1,
+          "EB0-head": 9
+        }
+      },
+      "different_winners": 10,
+      "CIFAR-10H": {
+        "random": [
+          144.28,
+          141.32975,
+          146.92000000000002
+        ],
+        "difficulty": [
+          162.15,
+          157.66,
+          165.9
+        ],
+        "difficulty_minus_random": [
+          17.87,
+          13.90975,
+          21.509999999999998
+        ],
+        "random_regret": [
+          19.62,
+          16.68,
+          22.65
+        ],
+        "difficulty_regret": [
+          1.75,
+          0.0,
+          5.550000000000001
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          199.3065279722611,
+          198.93978795759153,
+          199.67326798693074
+        ],
+        "difficulty": [
+          199.4398879775955,
+          199.2731879709275,
+          199.63992798559713
+        ],
+        "difficulty_minus_random": [
+          0.1333600053344002,
+          -0.2333800093352004,
+          0.46676001867040073
+        ],
+        "random_regret": [
+          0.7334800293392011,
+          0.36674001466960054,
+          1.1002200440088017
+        ],
+        "difficulty_regret": [
+          0.600120024004801,
+          0.40008001600320064,
+          0.7668200306728012
+        ]
+      }
+    }
+  },
+  "0.05": {
+    "base": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "CNN": 10
+        },
+        "Chen-ID-hard": {
+          "CNN-kNN": 9,
+          "CNN": 1
+        }
+      },
+      "different_winners": 9,
+      "CIFAR-10H": {
+        "random": [
+          129.4,
+          122.89750000000001,
+          135.0
+        ],
+        "difficulty": [
+          107.17,
+          101.1,
+          114.2
+        ],
+        "difficulty_minus_random": [
+          -22.23,
+          -29.5,
+          -15.26
+        ],
+        "random_regret": [
+          1.3,
+          0.0,
+          3.9
+        ],
+        "difficulty_regret": [
+          23.53,
+          16.839749999999995,
+          30.3
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          444.68893778755756,
+          442.3551376942055,
+          447.05607788224313
+        ],
+        "difficulty": [
+          326.9987330799493,
+          310.16203240648133,
+          353.57071414282854
+        ],
+        "difficulty_minus_random": [
+          -117.6902047076082,
+          -135.2270454090818,
+          -89.45122357804895
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          117.6902047076082,
+          89.45122357804895,
+          135.2270454090818
+        ]
+      }
+    },
+    "claims_only": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "Docta-SimiFeat-V": 10
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 0,
+      "CIFAR-10H": {
+        "random": [
+          127.0,
+          121.4,
+          133.2
+        ],
+        "difficulty": [
+          127.0,
+          121.4,
+          133.2
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          318.23031272921247,
+          315.7631526305261,
+          320.86417283456694
+        ],
+        "difficulty": [
+          318.23031272921247,
+          315.7631526305261,
+          320.86417283456694
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          51.343602053744085,
+          45.40908181636327,
+          56.97806227912249
+        ],
+        "difficulty_regret": [
+          51.343602053744085,
+          45.40908181636327,
+          56.97806227912249
+        ]
+      }
+    },
+    "base_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "CNN": 10
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 10,
+      "CIFAR-10H": {
+        "random": [
+          129.4,
+          122.89750000000001,
+          135.0
+        ],
+        "difficulty": [
+          127.0,
+          121.4,
+          133.2
+        ],
+        "difficulty_minus_random": [
+          -2.4,
+          -10.2,
+          6.7
+        ],
+        "random_regret": [
+          4.9,
+          0.0,
+          11.2
+        ],
+        "difficulty_regret": [
+          7.3,
+          3.7,
+          11.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          444.68893778755756,
+          442.3551376942055,
+          447.05607788224313
+        ],
+        "difficulty": [
+          318.23031272921247,
+          315.7631526305261,
+          320.86417283456694
+        ],
+        "difficulty_minus_random": [
+          -126.45862505834498,
+          -128.72574514902982,
+          -124.0914849636594
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          126.45862505834498,
+          124.0914849636594,
+          128.72574514902982
+        ]
+      }
+    },
+    "all_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "EB0-head": 10
+        },
+        "Chen-ID-hard": {
+          "EB0-head": 10
+        }
+      },
+      "different_winners": 0,
+      "CIFAR-10H": {
+        "random": [
+          278.7,
+          273.3,
+          284.5
+        ],
+        "difficulty": [
+          278.7,
+          273.3,
+          284.5
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          496.4326198573047,
+          495.7658198306327,
+          497.16609988664396
+        ],
+        "difficulty": [
+          496.4326198573047,
+          495.7658198306327,
+          497.16609988664396
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.566780022671201,
+          0.30006001200240046,
+          0.8668400346736014
+        ],
+        "difficulty_regret": [
+          0.566780022671201,
+          0.30006001200240046,
+          0.8668400346736014
+        ]
+      }
+    }
+  },
+  "0.1": {
+    "base": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "CNN": 10
+        },
+        "Chen-ID-hard": {
+          "CNN-kNN": 10
+        }
+      },
+      "different_winners": 10,
+      "CIFAR-10H": {
+        "random": [
+          195.5,
+          188.5,
+          202.6
+        ],
+        "difficulty": [
+          206.1,
+          198.5,
+          213.2
+        ],
+        "difficulty_minus_random": [
+          10.6,
+          7.3,
+          14.3
+        ],
+        "random_regret": [
+          10.6,
+          7.3,
+          14.3
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          752.6505301060213,
+          747.1827698873109,
+          758.3516703340667
+        ],
+        "difficulty": [
+          629.2258451690337,
+          619.9573247982929,
+          636.5939854637594
+        ],
+        "difficulty_minus_random": [
+          -123.42468493698739,
+          -132.75988531039542,
+          -115.15636460625458
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          123.42468493698739,
+          115.15636460625458,
+          132.75988531039542
+        ]
+      }
+    },
+    "claims_only": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "Docta-SimiFeat-V": 10
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 0,
+      "CIFAR-10H": {
+        "random": [
+          251.6,
+          245.9,
+          257.3
+        ],
+        "difficulty": [
+          251.6,
+          245.9,
+          257.3
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          640.2280456091219,
+          635.2270454090818,
+          644.9289857971595
+        ],
+        "difficulty": [
+          640.2280456091219,
+          635.2270454090818,
+          644.9289857971595
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "base_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "CNN": 10
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 10,
+      "CIFAR-10H": {
+        "random": [
+          195.5,
+          188.5,
+          202.6
+        ],
+        "difficulty": [
+          251.6,
+          245.9,
+          257.3
+        ],
+        "difficulty_minus_random": [
+          56.1,
+          49.1,
+          62.9
+        ],
+        "random_regret": [
+          56.1,
+          49.1,
+          62.9
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          752.6505301060213,
+          747.1827698873109,
+          758.3516703340667
+        ],
+        "difficulty": [
+          640.2280456091219,
+          635.2270454090818,
+          644.9289857971595
+        ],
+        "difficulty_minus_random": [
+          -112.42248449689939,
+          -118.95712475828498,
+          -106.28709075148369
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          112.42248449689939,
+          106.28709075148362,
+          118.95712475828498
+        ]
+      }
+    },
+    "all_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "EB0-head": 10
+        },
+        "Chen-ID-hard": {
+          "EB0-head": 10
+        }
+      },
+      "different_winners": 0,
+      "CIFAR-10H": {
+        "random": [
+          359.1,
+          350.6,
+          368.4
+        ],
+        "difficulty": [
+          359.1,
+          350.6,
+          368.4
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          967.8268987130762,
+          966.5266386610656,
+          969.0938187637528
+        ],
+        "difficulty": [
+          967.8268987130762,
+          966.5266386610656,
+          969.0938187637528
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "0.2": {
+    "base": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "CNN": 9,
+          "CNN-kNN": 1
+        },
+        "Chen-ID-hard": {
+          "CNN-kNN": 10
+        }
+      },
+      "different_winners": 9,
+      "CIFAR-10H": {
+        "random": [
+          291.33,
+          282.5,
+          299.82
+        ],
+        "difficulty": [
+          304.2,
+          296.2,
+          312.1
+        ],
+        "difficulty_minus_random": [
+          12.87,
+          7.6800000000000015,
+          18.45
+        ],
+        "random_regret": [
+          12.97,
+          7.880000000000001,
+          18.5
+        ],
+        "difficulty_regret": [
+          0.1,
+          0.0,
+          0.3
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          1118.0902847236114,
+          1109.5552443822096,
+          1127.9922651196905
+        ],
+        "difficulty": [
+          1135.627125425085,
+          1128.6590651463625,
+          1142.4951656998064
+        ],
+        "difficulty_minus_random": [
+          17.536840701473626,
+          11.50230046009202,
+          23.304660932186437
+        ],
+        "random_regret": [
+          17.570180702807228,
+          11.568980462759217,
+          23.338000933520036
+        ],
+        "difficulty_regret": [
+          0.03334000133360005,
+          0.0,
+          0.10002000400080016
+        ]
+      }
+    },
+    "claims_only": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "Docta-SimiFeat-V": 10
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 0,
+      "CIFAR-10H": {
+        "random": [
+          376.4,
+          370.4,
+          382.7
+        ],
+        "difficulty": [
+          376.4,
+          370.4,
+          382.7
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          1268.9537907581519,
+          1259.9519903980795,
+          1276.8220310728816
+        ],
+        "difficulty": [
+          1268.9537907581519,
+          1259.9519903980795,
+          1276.8220310728816
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "base_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "Docta-SimiFeat-V": 10
+        },
+        "Chen-ID-hard": {
+          "Docta-SimiFeat-V": 10
+        }
+      },
+      "different_winners": 0,
+      "CIFAR-10H": {
+        "random": [
+          376.4,
+          370.4,
+          382.7
+        ],
+        "difficulty": [
+          376.4,
+          370.4,
+          382.7
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          1268.9537907581519,
+          1259.9519903980795,
+          1276.8220310728816
+        ],
+        "difficulty": [
+          1268.9537907581519,
+          1259.9519903980795,
+          1276.8220310728816
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "all_plus_public": {
+      "source_choices": {
+        "Chen-ID-mask": {
+          "EB0-head": 10
+        },
+        "Chen-ID-hard": {
+          "EB0-head": 10
+        }
+      },
+      "different_winners": 0,
+      "CIFAR-10H": {
+        "random": [
+          427.3,
+          419.4,
+          435.2
+        ],
+        "difficulty": [
+          427.3,
+          419.4,
+          435.2
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CIFAR-10N": {
+        "random": [
+          1531.0728812429152,
+          1523.9714609588584,
+          1538.2418150296724
+        ],
+        "difficulty": [
+          1531.0728812429152,
+          1523.9714609588584,
+          1538.2418150296724
+        ],
+        "difficulty_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "random_regret": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "difficulty_regret": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

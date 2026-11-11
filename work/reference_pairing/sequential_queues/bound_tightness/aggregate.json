@@ -1,0 +1,36 @@
+{
+  "within_1pct": {
+    "panels": 113,
+    "total_panels": 330,
+    "target_macro_fraction": 0.34242424242424246,
+    "all_seeds_targets": 3
+  },
+  "within_5pct": {
+    "panels": 118,
+    "total_panels": 330,
+    "target_macro_fraction": 0.35757575757575755,
+    "all_seeds_targets": 5
+  },
+  "within_10pct": {
+    "panels": 139,
+    "total_panels": 330,
+    "target_macro_fraction": 0.4212121212121212,
+    "all_seeds_targets": 7
+  },
+  "targets": 33,
+  "panels": 330,
+  "zero_d_panels": 113,
+  "all_zero_d_targets": 3,
+  "zero_k_panels": 100,
+  "nonzero_d_panels": 217,
+  "dpositive_tightness_median": 0.14,
+  "dpositive_tightness_mean": 0.201891432433843,
+  "active_panels": 138,
+  "active_mean_cap": 15.27536231884058,
+  "active_mean_f": 14.427536231884059,
+  "active_mean_actual_loss": 1.4420289855072463,
+  "active_cap_binding": 125,
+  "active_gain": 55,
+  "active_tie": 28,
+  "active_loss": 55
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "crowdtruth_treat",
+  "counts": [
+    215,
+    198,
+    208
+  ],
+  "fit_classes": [
+    110,
+    105
+  ],
+  "source_classes": [
+    101,
+    97
+  ],
+  "target_errors": 29,
+  "note": "expert decision versus aggregate crowd label for medical treatment"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "MultiNLI",
+  "original": [
+    4338,
+    4379,
+    8852
+  ],
+  "fit": 4000,
+  "history": 4000,
+  "target": 6000,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "disagreements": 483
+}

@@ -1,0 +1,16 @@
+{
+  "objective": "Test a fully budgeted two-stage decision to continue or stop sampling candidate queue disagreements.",
+  "state": "frozen before running the staged algorithm; inputs are previously explored archival data and are not a fresh external holdout",
+  "datasets": ["c10", "c100", "dyna", "nli", "nli-holdout", "fashion-RN18", "fashion-EB0", "allenoise", "ucc", "wiki", "go", "d3"],
+  "panel_selection": "all archived panels for the five frontier datasets; ten splits for Fashion and AlleNoise; full archived source-only budget-vs-auc pair and first reference for four human-vote targets",
+  "pilot": "sample at most floor(0.02 B) records uniformly without replacement from each of A-only, B-only and the common prefix; all checks count in the total budget B",
+  "second_stage": "sample at most floor(0.02 B) additional records from each remaining exclusive set only if conditional expected final findings exceed the value of stopping",
+  "evaluation": "all paid records are retained, count once, and remaining budget is filled from one of default, alternative or deduplicated interleave chosen using the pilot and any second-stage observations; compare against full-budget default, interleave, fixed 10% exclusive audit, and the same pilot without second stage",
+  "model": "independent Beta(1,1) priors on hit rates for default-only, alternative-only and common prefix strata, with exchangeability within each stratum; posterior simulation explicitly accounts for already-audited records and remaining slots. Select continuation when posterior mean incremental value is strictly positive. This is a model-based estimate, not a distribution-free guarantee.",
+  "simulation": {"pilot_repetitions_per_panel": 20, "posterior_draws": 50, "seed": 227504},
+  "primary_metric": "per-target difference in number of recorded reference disagreements found under exactly the same B, including every pilot and second-stage record",
+  "secondary": "continue rate, conditional pilot spending, staged minus pilot-only and staged minus simple baselines; report results by dataset and uncertainty at dataset or original split level, never count Monte Carlo repeats as independent data",
+  "blindness": "before action, only sampled target outcomes may affect the policy; full error labels are used only to score chosen policy afterwards",
+  "setup_cost": "historic reference and source selection labels and detector compute are not included in B; multiple votes per verified record need additional cost",
+  "success": "A practical superiority claim requires net gains over both direct default and interleave on independent targets, including pilot cost; report all adverse results and do not tune after seeing outcomes."
+}

@@ -1,0 +1,266 @@
+{
+  "dataset": "wiki",
+  "learner": "linear",
+  "metric": "macro-F1",
+  "budget": 1200,
+  "candidate_count": 5,
+  "mean_union": 2433.3,
+  "methods": [
+    "word-confidence",
+    "char-confidence",
+    "prototype-margin",
+    "knn-disagreement",
+    "native-CL"
+  ],
+  "policy": {
+    "source": {
+      "quality_percent": 72.03390357744195,
+      "mean_repairs": 795.0,
+      "accuracy_percent": 90.06866666666669,
+      "f1_class0_percent": 94.49097892327507,
+      "f1_class1_percent": 49.576828231608744
+    },
+    "random": {
+      "quality_percent": 73.94488208314382,
+      "mean_repairs": 143.29,
+      "accuracy_percent": 90.17266666666667,
+      "f1_class0_percent": 94.50671879579782,
+      "f1_class1_percent": 53.383045370489825
+    },
+    "yield_audit": {
+      "quality_percent": 72.24332891839045,
+      "mean_repairs": 772.31,
+      "accuracy_percent": 90.06333333333333,
+      "f1_class0_percent": 94.48264765877688,
+      "f1_class1_percent": 50.00401017800405
+    },
+    "validation_select": {
+      "quality_percent": 73.57204340440913,
+      "mean_repairs": 696.11,
+      "accuracy_percent": 90.14533333333326,
+      "f1_class0_percent": 94.49815845279568,
+      "f1_class1_percent": 52.64592835602259
+    },
+    "no_review": {
+      "quality_percent": 73.84968537762964,
+      "mean_repairs": 0.0,
+      "accuracy_percent": 90.13533333333335,
+      "f1_class0_percent": 94.48575259125097,
+      "f1_class1_percent": 53.21361816400832
+    }
+  },
+  "contrasts": {
+    "yield_audit_minus_source": {
+      "quality_pp": 0.20942534094851506,
+      "quality_ci95": [
+        -0.023829743266105652,
+        0.4903842508792866
+      ],
+      "repairs": -22.69,
+      "repairs_ci95": [
+        -30.3105,
+        -18.159750000000006
+      ],
+      "accuracy_pp": -0.005333333333354062,
+      "accuracy_ci95": [
+        -0.09099277853965759,
+        0.08176836371421808
+      ]
+    },
+    "validation_select_minus_source": {
+      "quality_pp": 1.5381398269671849,
+      "quality_ci95": [
+        0.9401874408125878,
+        2.290260225534439
+      ],
+      "repairs": -98.89,
+      "repairs_ci95": [
+        -117.74475000000004,
+        -80.68925
+      ],
+      "accuracy_pp": 0.07666666666656852,
+      "accuracy_ci95": [
+        -0.09500634670257568,
+        0.2660741209983825
+      ]
+    },
+    "validation_select_minus_yield_audit": {
+      "quality_pp": 1.3287144860186697,
+      "quality_ci95": [
+        0.7895702436566353,
+        2.045895582437515
+      ],
+      "repairs": -76.2,
+      "repairs_ci95": [
+        -97.07075000000002,
+        -55.747000000000014
+      ],
+      "accuracy_pp": 0.08199999999992258,
+      "accuracy_ci95": [
+        -0.05633477866649628,
+        0.24534395337104792
+      ]
+    },
+    "random_minus_source": {
+      "quality_pp": 1.9109785057018696,
+      "quality_ci95": [
+        1.1582169830799103,
+        2.8211935341358183
+      ],
+      "repairs": -651.71,
+      "repairs_ci95": [
+        -655.4709999999999,
+        -647.5395
+      ],
+      "accuracy_pp": 0.103999999999985,
+      "accuracy_ci95": [
+        -0.13340823352336884,
+        0.3845194876193998
+      ]
+    },
+    "source_minus_no_review": {
+      "quality_pp": -1.8157818001877095,
+      "quality_ci95": [
+        -2.7152897238731386,
+        -1.0646346360445025
+      ],
+      "repairs": 795.0,
+      "repairs_ci95": [
+        790.0,
+        800.0
+      ],
+      "accuracy_pp": -0.06666666666666288,
+      "accuracy_ci95": [
+        -0.3444717973470688,
+        0.17257367074489585
+      ]
+    },
+    "validation_select_minus_random": {
+      "quality_pp": -0.3728386787346847,
+      "quality_ci95": [
+        -0.8913964912295341,
+        0.12011806666850966
+      ],
+      "repairs": 552.82,
+      "repairs_ci95": [
+        532.4099999999999,
+        571.98075
+      ],
+      "accuracy_pp": -0.027333333333416476,
+      "accuracy_ci95": [
+        -0.17912597954273224,
+        0.12575905025005327
+      ]
+    },
+    "yield_audit_minus_random": {
+      "quality_pp": -1.7015531647533548,
+      "quality_ci95": [
+        -2.529114216566086,
+        -1.0067656636238103
+      ],
+      "repairs": 629.02,
+      "repairs_ci95": [
+        622.0487499999999,
+        633.75025
+      ],
+      "accuracy_pp": -0.10933333333333906,
+      "accuracy_ci95": [
+        -0.35749223828315735,
+        0.10456881634891027
+      ]
+    },
+    "validation_select_minus_no_review": {
+      "quality_pp": -0.27764197322052453,
+      "quality_ci95": [
+        -0.8092137113213539,
+        0.25333110988140084
+      ],
+      "repairs": 696.11,
+      "repairs_ci95": [
+        674.6945000000001,
+        715.95275
+      ],
+      "accuracy_pp": 0.00999999999990564,
+      "accuracy_ci95": [
+        -0.15779227018356323,
+        0.18104048073291776
+      ]
+    },
+    "random_minus_no_review": {
+      "quality_pp": 0.09519670551416015,
+      "quality_ci95": [
+        -0.07515065371990204,
+        0.26699090003967274
+      ],
+      "repairs": 143.29,
+      "repairs_ci95": [
+        140.3,
+        146.09025
+      ],
+      "accuracy_pp": 0.037333333333322116,
+      "accuracy_ci95": [
+        -0.02335841953754425,
+        0.10158674418926239
+      ]
+    }
+  },
+  "hindsight_oracle": {
+    "source": {
+      "quality_regret_pp": 3.3702622733476906,
+      "ci95": [
+        2.3018178939819336,
+        4.553759384155273
+      ]
+    },
+    "random": {
+      "quality_regret_pp": 1.4592837676458204,
+      "ci95": [
+        0.77229443192482,
+        2.1933915317058563
+      ]
+    },
+    "yield_audit": {
+      "quality_regret_pp": 3.1608369323991745,
+      "ci95": [
+        2.1470026791095735,
+        4.2854388594627375
+      ]
+    },
+    "validation_select": {
+      "quality_regret_pp": 1.8321224463805055,
+      "ci95": [
+        1.1453891396522522,
+        2.6153141677379605
+      ]
+    }
+  },
+  "oracle_note": "Oracle chosen using the same held-out test panel after all candidates; requires the full candidate union. It is an optimistic offline benchmark, not an executable selector.",
+  "bootstrap_note": "2000 paired draws over ten overlapping partitions, train/audit seeds and shared held-out record identities; resampling does not make partitions independent.",
+  "additional_contrasts": "Validation or audit versus random, and validation or random versus no-review, were added after inspecting the first completed outputs. Treat as secondary follow-up comparisons.",
+  "oracle_candidates_by_split": [
+    "prototype-margin",
+    "prototype-margin",
+    "prototype-margin",
+    "prototype-margin",
+    "native-CL",
+    "prototype-margin",
+    "prototype-margin",
+    "prototype-margin",
+    "prototype-margin",
+    "prototype-margin"
+  ],
+  "audit_selected_counts": {
+    "word-confidence": 54,
+    "char-confidence": 44,
+    "prototype-margin": 1,
+    "knn-disagreement": 1,
+    "native-CL": 0
+  },
+  "validation_selected_counts": {
+    "word-confidence": 65,
+    "char-confidence": 6,
+    "prototype-margin": 19,
+    "knn-disagreement": 5,
+    "native-CL": 5
+  }
+}

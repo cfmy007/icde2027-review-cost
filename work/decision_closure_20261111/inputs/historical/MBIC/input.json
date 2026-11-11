@@ -1,0 +1,16 @@
+{
+  "dataset": "MBIC",
+  "original": [
+    856,
+    420,
+    424
+  ],
+  "fit": 856,
+  "history": 420,
+  "target": 424,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 170
+}

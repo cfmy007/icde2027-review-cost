@@ -1,0 +1,18 @@
+{
+  "dataset": "dices",
+  "counts": [
+    111,
+    126,
+    113
+  ],
+  "fit_classes": [
+    55,
+    56
+  ],
+  "source_classes": [
+    70,
+    56
+  ],
+  "target_errors": 33,
+  "note": "expert safety reference"
+}

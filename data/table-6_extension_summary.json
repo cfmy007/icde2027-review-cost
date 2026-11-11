@@ -1,0 +1,1293 @@
+{
+  "vision": {
+    "aggre_label": {
+      "5": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 442.7885577115423,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "CNN-kNN": 10
+            },
+            "hits_per_10000": 413.4826965393078,
+            "regret_per_10000": 29.30586117223445,
+            "vs_fixed_cnn_per_10000": -29.30586117223445
+          },
+          "NC-CNN": {
+            "choices": {
+              "CNN-kNN": 1,
+              "CNN": 9
+            },
+            "hits_per_10000": 438.18763752750544,
+            "regret_per_10000": 4.6009201840368075,
+            "vs_fixed_cnn_per_10000": -4.6009201840368075
+          },
+          "NC-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 442.7885577115423,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "CNN-head": 4,
+              "CNN": 6
+            },
+            "hits_per_10000": 406.6813362672534,
+            "regret_per_10000": 36.10722144428886,
+            "vs_fixed_cnn_per_10000": -36.10722144428886
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 442.7885577115423,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Uniform": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 442.7885577115423,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          }
+        },
+        "hard_minus_random": [
+          -29.30586117223445,
+          -34.80696139227845,
+          -23.80476095219044
+        ]
+      },
+      "6": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "8": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 640.8281656331266,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 198.03960792158435
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "random_label1": {
+      "5": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 733.7467493498699,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "CNN-kNN": 10
+            },
+            "hits_per_10000": 621.2242448489699,
+            "regret_per_10000": 112.52250450090018,
+            "vs_fixed_cnn_per_10000": -112.52250450090018
+          },
+          "NC-CNN": {
+            "choices": {
+              "CNN-kNN": 1,
+              "CNN": 9
+            },
+            "hits_per_10000": 719.9439887977595,
+            "regret_per_10000": 13.802760552110422,
+            "vs_fixed_cnn_per_10000": -13.802760552110422
+          },
+          "NC-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 733.7467493498699,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "CNN-head": 4,
+              "CNN": 6
+            },
+            "hits_per_10000": 707.0414082816562,
+            "regret_per_10000": 26.70534106821364,
+            "vs_fixed_cnn_per_10000": -26.70534106821364
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 733.7467493498699,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Uniform": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 733.7467493498699,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          }
+        },
+        "hard_minus_random": [
+          -112.52250450090018,
+          -122.32446489297861,
+          -103.52070414082819
+        ]
+      },
+      "6": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "8": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 930.886177235447,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 197.1394278855771
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "random_label2": {
+      "5": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 771.3542708541707,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "CNN-kNN": 10
+            },
+            "hits_per_10000": 640.4280856171234,
+            "regret_per_10000": 130.9261852370474,
+            "vs_fixed_cnn_per_10000": -130.9261852370474
+          },
+          "NC-CNN": {
+            "choices": {
+              "CNN-kNN": 1,
+              "CNN": 9
+            },
+            "hits_per_10000": 754.2508501700339,
+            "regret_per_10000": 17.10342068413683,
+            "vs_fixed_cnn_per_10000": -17.10342068413683
+          },
+          "NC-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 771.3542708541707,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "CNN-head": 4,
+              "CNN": 6
+            },
+            "hits_per_10000": 745.8491698339668,
+            "regret_per_10000": 25.50510102020404,
+            "vs_fixed_cnn_per_10000": -25.50510102020404
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 771.3542708541707,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Uniform": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 771.3542708541707,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          }
+        },
+        "hard_minus_random": [
+          -130.9261852370474,
+          -141.62832566513302,
+          -122.42448489697941
+        ]
+      },
+      "6": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "8": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 960.4920984196839,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 189.1378275655131
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "random_label3": {
+      "5": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 752.8505701140227,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "CNN-kNN": 10
+            },
+            "hits_per_10000": 626.0252050410081,
+            "regret_per_10000": 126.82536507301458,
+            "vs_fixed_cnn_per_10000": -126.82536507301458
+          },
+          "NC-CNN": {
+            "choices": {
+              "CNN-kNN": 1,
+              "CNN": 9
+            },
+            "hits_per_10000": 737.7475495099019,
+            "regret_per_10000": 15.103020604120823,
+            "vs_fixed_cnn_per_10000": -15.103020604120823
+          },
+          "NC-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 752.8505701140227,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "CNN-head": 4,
+              "CNN": 6
+            },
+            "hits_per_10000": 726.3452690538109,
+            "regret_per_10000": 26.50530106021204,
+            "vs_fixed_cnn_per_10000": -26.50530106021204
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 752.8505701140227,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Uniform": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 752.8505701140227,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          }
+        },
+        "hard_minus_random": [
+          -126.82536507301458,
+          -136.52730546109223,
+          -117.2234446889378
+        ]
+      },
+      "6": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "8": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 940.8881776355272,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 188.0376075215043
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "worse_label": {
+      "5": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 973.594718943789,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "CNN-kNN": 10
+            },
+            "hits_per_10000": 859.271854370874,
+            "regret_per_10000": 114.3228645729146,
+            "vs_fixed_cnn_per_10000": -114.3228645729146
+          },
+          "NC-CNN": {
+            "choices": {
+              "CNN-kNN": 1,
+              "CNN": 9
+            },
+            "hits_per_10000": 960.2920584116824,
+            "regret_per_10000": 13.30266053210642,
+            "vs_fixed_cnn_per_10000": -13.30266053210642
+          },
+          "NC-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 973.594718943789,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "CNN-head": 4,
+              "CNN": 6
+            },
+            "hits_per_10000": 964.492898579716,
+            "regret_per_10000": 9.101820364072813,
+            "vs_fixed_cnn_per_10000": -9.101820364072813
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 973.594718943789,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Uniform": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 973.594718943789,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 0.0
+          }
+        },
+        "hard_minus_random": [
+          -114.3228645729146,
+          -120.12402480496101,
+          -108.82176435287059
+        ]
+      },
+      "6": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "8": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 998.499699939988,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 24.90498099619924
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "noisy_label": {
+      "5": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "CNN-head": 10
+            },
+            "hits_per_10000": 829.4488346503952,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 70.62118635590677
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "CNN-head": 8,
+              "CNN": 2
+            },
+            "hits_per_10000": 817.2451735520656,
+            "regret_per_10000": 12.2036610983295,
+            "vs_fixed_cnn_per_10000": 58.41752525757727
+          },
+          "NC-CNN": {
+            "choices": {
+              "CNN-head": 6,
+              "CNN-kNN": 4
+            },
+            "hits_per_10000": 721.216364909473,
+            "regret_per_10000": 108.23246974092228,
+            "vs_fixed_cnn_per_10000": -37.61128338501551
+          },
+          "NC-Aux": {
+            "choices": {
+              "CNN-head": 10
+            },
+            "hits_per_10000": 829.4488346503952,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 70.62118635590677
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "CNN-head": 10
+            },
+            "hits_per_10000": 829.4488346503952,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 70.62118635590677
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "CNN-head": 10
+            },
+            "hits_per_10000": 829.4488346503952,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 70.62118635590677
+          },
+          "Uniform": {
+            "choices": {
+              "CNN-head": 10
+            },
+            "hits_per_10000": 829.4488346503952,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 70.62118635590677
+          }
+        },
+        "hard_minus_random": [
+          -12.2036610983295,
+          -30.009002700810242,
+          0.0
+        ]
+      },
+      "6": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "8": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "NC-CNN": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "NC-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "AQuA-CM-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "AQuA-ID-Aux": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          },
+          "Uniform": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 982.3947184155247,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 223.5670701210363
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "CIFAR-10H": {
+      "5": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "CNN": 10
+            },
+            "hits_per_10000": 197.45,
+            "regret_per_10000": 9.24,
+            "vs_fixed_cnn_per_10000": 0.0
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "CNN-kNN": 10
+            },
+            "hits_per_10000": 206.08,
+            "regret_per_10000": 0.61,
+            "vs_fixed_cnn_per_10000": 8.63
+          }
+        },
+        "hard_minus_random": [
+          8.63,
+          7.04975,
+          10.21
+        ]
+      },
+      "6": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 337.32,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 139.87
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 337.32,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 139.87
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "8": {
+        "by_source": {
+          "Chen-ID-mask": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 337.32,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 139.87
+          },
+          "Chen-ID-hard": {
+            "choices": {
+              "RN18-head": 10
+            },
+            "hits_per_10000": 337.32,
+            "regret_per_10000": 0.0,
+            "vs_fixed_cnn_per_10000": 139.87
+          }
+        },
+        "hard_minus_random": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "panel_prevalence": {
+    "majority3/disjoint_majority": {
+      "prevalence": 0.014054982817869417,
+      "additional_disagreements_found_per_100_disagreements": 2.495325758665324
+    },
+    "majority3/original": {
+      "prevalence": 0.016389731150192034,
+      "additional_disagreements_found_per_100_disagreements": 1.7143561914158856
+    },
+    "single/disjoint_majority": {
+      "prevalence": 0.04023448554679604,
+      "additional_disagreements_found_per_100_disagreements": 2.3211414790996785
+    },
+    "single/original": {
+      "prevalence": 0.04197392359005458,
+      "additional_disagreements_found_per_100_disagreements": 1.8613499000698308
+    }
+  }
+}

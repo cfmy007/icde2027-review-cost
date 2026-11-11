@@ -1,0 +1,18 @@
+{
+  "dataset": "crowdtruth_cause",
+  "counts": [
+    345,
+    293,
+    337
+  ],
+  "fit_classes": [
+    260,
+    85
+  ],
+  "source_classes": [
+    221,
+    72
+  ],
+  "target_errors": 78,
+  "note": "expert decision versus aggregate crowd label for medical cause"
+}

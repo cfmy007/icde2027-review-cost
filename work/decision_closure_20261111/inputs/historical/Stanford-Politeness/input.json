@@ -1,0 +1,16 @@
+{
+  "dataset": "Stanford-Politeness",
+  "original": [
+    2217,
+    2121,
+    6594
+  ],
+  "fit": 2217,
+  "history": 2121,
+  "target": 6000,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 2583
+}

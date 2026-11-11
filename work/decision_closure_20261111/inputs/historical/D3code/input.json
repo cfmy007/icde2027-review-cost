@@ -1,0 +1,16 @@
+{
+  "dataset": "D3code",
+  "original": [
+    2255,
+    1141,
+    1158
+  ],
+  "fit": 2254,
+  "history": 1140,
+  "target": 1158,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 468
+}

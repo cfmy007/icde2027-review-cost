@@ -1,0 +1,19 @@
+{
+  "eligible_docs": 188,
+  "missing_professional_annotation": 3,
+  "invalid_professional_spans": 0,
+  "no_valid_worker": 0,
+  "documents_per_split": [
+    68,
+    63,
+    57
+  ],
+  "tokens_per_split": [
+    19869,
+    18308,
+    17945
+  ],
+  "target_errors": 1612,
+  "token_projection": "regex word-or-punctuation token is positive if any character intersects a reference span; half-open offsets",
+  "source_setup_reference_tokens": 38177
+}

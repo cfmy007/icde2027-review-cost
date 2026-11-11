@@ -1,0 +1,18 @@
+{
+  "dataset": "germs",
+  "counts": [
+    2669,
+    2528,
+    2576
+  ],
+  "fit_reference_classes": [
+    1734,
+    935
+  ],
+  "source_reference_classes": [
+    1639,
+    889
+  ],
+  "target_disagreements": 378,
+  "note": "one annotator judgment versus a three-other-annotator majority"
+}

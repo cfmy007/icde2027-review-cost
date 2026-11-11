@@ -1,0 +1,274 @@
+{
+  "dataset": "c100",
+  "learner": "mlp",
+  "metric": "accuracy",
+  "budget": 1000,
+  "candidate_count": 12,
+  "mean_union": 4187.2,
+  "methods": [
+    "margin",
+    "local",
+    "knn",
+    "ref-confidence",
+    "ref-CL",
+    "native-confidence",
+    "native-CL",
+    "native-AUM",
+    "native-Docta",
+    "AUM-threshold",
+    "SimiFeat-single-vote",
+    "AUM-raw"
+  ],
+  "policy": {
+    "source_self": {
+      "quality_percent": 52.43803803803805,
+      "mean_repairs": 743.7
+    },
+    "source_external": {
+      "quality_percent": 52.94234234234233,
+      "mean_repairs": 910.8
+    },
+    "random": {
+      "quality_percent": 50.164064064064064,
+      "mean_repairs": 398.4
+    },
+    "yield_audit": {
+      "quality_percent": 52.37557557557558,
+      "mean_repairs": 826.31
+    },
+    "validation_select": {
+      "quality_percent": 52.12392392392392,
+      "mean_repairs": 755.73
+    },
+    "no_review": {
+      "quality_percent": 48.52742742742743,
+      "mean_repairs": 0.0
+    }
+  },
+  "contrasts": {
+    "yield_audit_minus_source_self": {
+      "quality_pp": -0.06246246246246234,
+      "quality_ci95": [
+        -0.32573530077934265,
+        0.2072656746953724
+      ],
+      "repairs": 82.61,
+      "repairs_ci95": [
+        59.58975000000001,
+        103.39050000000002
+      ]
+    },
+    "validation_select_minus_source_self": {
+      "quality_pp": -0.3141141141141143,
+      "quality_ci95": [
+        -0.5624456703662872,
+        -0.08531308174133308
+      ],
+      "repairs": 12.03,
+      "repairs_ci95": [
+        -3.6512499999999997,
+        27.740500000000015
+      ]
+    },
+    "validation_select_minus_yield_audit": {
+      "quality_pp": -0.25165165165165193,
+      "quality_ci95": [
+        -0.45521779358386993,
+        -0.05374461412429851
+      ],
+      "repairs": -70.58,
+      "repairs_ci95": [
+        -94.032,
+        -45.52975000000001
+      ]
+    },
+    "random_minus_source_self": {
+      "quality_pp": -2.2739739739739737,
+      "quality_ci95": [
+        -2.521286332607269,
+        -2.0277234613895416
+      ],
+      "repairs": -345.3,
+      "repairs_ci95": [
+        -354.4405,
+        -335.35
+      ]
+    },
+    "source_self_minus_no_review": {
+      "quality_pp": 3.9106106106106107,
+      "quality_ci95": [
+        3.6518554508686067,
+        4.177109861373901
+      ],
+      "repairs": 743.7,
+      "repairs_ci95": [
+        737.6,
+        750.0
+      ]
+    },
+    "validation_select_minus_random": {
+      "quality_pp": 1.9598598598598596,
+      "quality_ci95": [
+        1.7277227640151978,
+        2.2111213982105253
+      ],
+      "repairs": 357.33,
+      "repairs_ci95": [
+        338.40975000000003,
+        375.51025000000004
+      ]
+    },
+    "yield_audit_minus_random": {
+      "quality_pp": 2.211511511511511,
+      "quality_ci95": [
+        1.9463074207305908,
+        2.485976696014404
+      ],
+      "repairs": 427.91,
+      "repairs_ci95": [
+        403.164,
+        448.88475
+      ]
+    },
+    "validation_select_minus_no_review": {
+      "quality_pp": 3.5964964964964956,
+      "quality_ci95": [
+        3.334889680147171,
+        3.8602318525314328
+      ],
+      "repairs": 755.73,
+      "repairs_ci95": [
+        739.4285,
+        771.6602500000001
+      ]
+    },
+    "random_minus_no_review": {
+      "quality_pp": 1.6366366366366365,
+      "quality_ci95": [
+        1.487159252166748,
+        1.792482683062553
+      ],
+      "repairs": 398.4,
+      "repairs_ci95": [
+        392.97975,
+        404.38075
+      ]
+    },
+    "yield_audit_minus_source_external": {
+      "quality_pp": -0.5667667667667671,
+      "quality_ci95": [
+        -0.7887204617261887,
+        -0.3407118320465089
+      ],
+      "repairs": -84.49,
+      "repairs_ci95": [
+        -105.97475,
+        -65.32925000000002
+      ]
+    },
+    "validation_select_minus_source_external": {
+      "quality_pp": -0.8184184184184189,
+      "quality_ci95": [
+        -1.0605648159980774,
+        -0.5842272192239764
+      ],
+      "repairs": -155.07,
+      "repairs_ci95": [
+        -171.3005,
+        -138.79500000000004
+      ]
+    },
+    "source_external_minus_source_self": {
+      "quality_pp": 0.5043043043043047,
+      "quality_ci95": [
+        0.21696230731904506,
+        0.8018441200256347
+      ],
+      "repairs": 167.1,
+      "repairs_ci95": [
+        159.495,
+        173.9
+      ]
+    }
+  },
+  "hindsight_oracle": {
+    "source_self": {
+      "quality_regret_pp": 0.5262262262262266,
+      "ci95": [
+        0.24205705523490906,
+        0.8171131774783134
+      ]
+    },
+    "source_external": {
+      "quality_regret_pp": 0.021921921921921883,
+      "ci95": [
+        -0.07045763731002808,
+        0.14224462211132044
+      ]
+    },
+    "random": {
+      "quality_regret_pp": 2.8002002002002007,
+      "ci95": [
+        2.528450161218643,
+        3.082913899421692
+      ]
+    },
+    "yield_audit": {
+      "quality_regret_pp": 0.588688688688689,
+      "ci95": [
+        0.37783926725387573,
+        0.8083046972751616
+      ]
+    },
+    "validation_select": {
+      "quality_regret_pp": 0.8403403403403408,
+      "ci95": [
+        0.6169676929712296,
+        1.0700142085552216
+      ]
+    }
+  },
+  "oracle_note": "Oracle chosen using the same held-out test panel after all candidates; requires the full candidate union. It is an optimistic offline benchmark, not an executable selector.",
+  "bootstrap_note": "2000 paired draws over ten overlapping partitions, train/audit seeds and shared held-out record identities; resampling does not make partitions independent.",
+  "additional_contrasts": "Validation or audit versus random, and validation or random versus no-review, were added after inspecting the first completed outputs. Treat as secondary follow-up comparisons.",
+  "oracle_candidates_by_split": [
+    "margin",
+    "AUM-threshold",
+    "AUM-threshold",
+    "margin",
+    "AUM-threshold",
+    "AUM-threshold",
+    "AUM-threshold",
+    "native-confidence",
+    "AUM-threshold",
+    "AUM-threshold"
+  ],
+  "audit_selected_counts": {
+    "margin": 22,
+    "local": 2,
+    "knn": 6,
+    "ref-confidence": 13,
+    "ref-CL": 6,
+    "native-confidence": 15,
+    "native-CL": 2,
+    "native-AUM": 13,
+    "native-Docta": 2,
+    "AUM-threshold": 12,
+    "SimiFeat-single-vote": 3,
+    "AUM-raw": 4
+  },
+  "validation_selected_counts": {
+    "margin": 18,
+    "local": 13,
+    "knn": 14,
+    "ref-confidence": 6,
+    "ref-CL": 8,
+    "native-confidence": 10,
+    "native-CL": 3,
+    "native-AUM": 5,
+    "native-Docta": 8,
+    "AUM-threshold": 8,
+    "SimiFeat-single-vote": 1,
+    "AUM-raw": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "CIFAR-10N",
+  "original": [
+    4000,
+    4000,
+    6000
+  ],
+  "fit": 4000,
+  "history": 4000,
+  "target": 6000,
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "disagreements": 1052
+}

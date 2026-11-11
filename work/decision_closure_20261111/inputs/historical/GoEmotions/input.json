@@ -1,0 +1,16 @@
+{
+  "dataset": "GoEmotions",
+  "original": [
+    8126,
+    4005,
+    4040
+  ],
+  "fit": 3992,
+  "history": 3997,
+  "target": 4040,
+  "classes": [
+    0,
+    1
+  ],
+  "disagreements": 1363
+}

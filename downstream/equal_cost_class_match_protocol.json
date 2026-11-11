@@ -1,0 +1,9 @@
+{
+  "status": "Post-result mechanism follow-up, fixed before these matched-intervention runs. It uses the same Wikipedia corpus and paired seeds as the equal-cost experiment.",
+  "question": "How does matching the verified-class composition of corrected records change the downstream difference between the source-selected policy and the validation-selected policy?",
+  "sets": "For each split and seed, start with the corrected disagreements in the already fixed source and validation review queues. Keep all shared corrections. From each arm's exclusive corrections choose a common total equal to the sum of the smaller verified-class counts across both arms. Sample one pair with only total and shared corrections matched, and a second pair with verified-class counts, total and shared corrections matched.",
+  "seed": "np.random.default_rng(training_seed + 520000), process classes in ascending order. One sampling operation per arm and condition; no seed selection.",
+  "training": "For each of the four corrected label sets, use the same seed, 18-epoch optimizer and training order as equal_cost_selection.py. Reuse the 10 grouped splits and 10 paired training seeds. Evaluate independent-vote Wikipedia test labels using linear and MLP.",
+  "contrast": "(validation total-only minus source total-only) minus (validation class-matched minus source class-matched), for macro-F1 and accuracy. Paired hierarchical bootstrap resamples the original 10 overlapping splits, training seeds and shared held-out groups.",
+  "scope": "All matching uses target reference labels retrospectively and is an offline experiment. Matching classes also changes individual corrected records, so it does not identify a unique causal mediation by class proportions."
+}
